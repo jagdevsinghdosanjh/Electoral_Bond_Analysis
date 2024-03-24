@@ -17,10 +17,7 @@ Political parties that secured at least **1% of the votes polled** in recent **L
 - Challenges to the scheme have been raised in the **Supreme Court**, questioning its constitutionality and impact on Indian democracy.
 
 - For Exploratory Data Analysis, the two files of importance related to Companies who purchased the bonds and the other related to Political Parties who redeemed the bonds can be downloaded from the Election Commission's Website. The link is: https://www.eci.gov.in/disclosure-of-electoral-bonds
+  
+- Both these files are in PDF format. I changed these files in CSV format using the Tabula library. The shape (Row, Column) of the Purchaser is (18871, 12), and of the Parties are (20421, 9).
 
-- 
-- Both these files are in PDF format. I changed these files in CSV format using the Tabula library. The shape (Row, Column) of the Purchaser is (18871, 12), and of the
-- Parties are (20421, 9).
-
-- Columns under the name Denominations are in comma-separated format in pdf and generated CSV files. You can replace using string.replace function or can change its data format to numeric using Excel.
--  
+- Columns under the name Denominations are in comma-separated format in pdf and generated CSV files. You can replace using string.replace() function or can change its data format to numeric using Excel.
